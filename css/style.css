@@ -23,6 +23,10 @@ a{
     color: balck;
     text-decoration: none;
 }
+img{
+	display: block;
+	max-width: 100%;
+}
 .clearfix::after{
     content: "";
     display: block;
