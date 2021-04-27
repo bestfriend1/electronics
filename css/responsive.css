@@ -1,0 +1,21 @@
+/* Electronics-Electronics-Electronics-product-responive */
+@media(max-width:1200px){
+    .Electronics-product-details{
+        grid-template-columns: repeat(4, 25%);
+    }
+}
+@media(max-width:940px){
+    .Electronics-product-details{
+        grid-template-columns: repeat(3, 33.33%);
+    }
+}
+@media(max-width:726px){
+    .Electronics-product-details{
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media(max-width:450px){
+    .Electronics-product-details{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
